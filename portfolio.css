@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* navbar :start */
+.max-width{
+    min-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    padding: 20px 0px;
+    width: 100%;
+    font-family: 'Ubuntu';
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    transition: 0.3s;
+}
+.navbar .menu li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+}
+/* :start .home  */
+.home{
+    display: flex;
+    background: url("./images/banner.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Ubuntu';
+}
+.home .max-width{
+    margin: auto 0px auto 40px;
+}
+.home .Text-1{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.home .Text-2{
+    margin-bottom: 5px;
+font-size: 58px;
+font-weight: 600;
+margin-left: -1px;
+}
+.home .Text-3{
+    margin-bottom: 5px;
+    font-size: 31px;   
+}
+.home  .Text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
